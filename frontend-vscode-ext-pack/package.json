@@ -1,0 +1,23 @@
+{
+    "name": "frontend-vscode-ext-pack",
+    "displayName": "frontend-vscode-ext-pack",
+    "description": "VS code extension pack for full stack DevOps",
+    "version": "0.0.1",
+    "publisher": "khizerrehan92",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:KhizerRehan/vscode-extension-packs.git"
+    },
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "msjsdiag.debugger-for-chrome",
+        "formulahendry.auto-rename-tag",
+        "christian-kohler.path-intellisense"
+    ]
+}
